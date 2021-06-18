@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+
+
+.hoverwell:hover{
+    background-color:cornflowerblue;
+    cursor: pointer;
+}
+
+.well{
+    background-color:khaki;
+}
+
+.container{
+    padding-top: 10px;
+}
+
+body.container{
+    background-color:rgb(163, 158, 190);
+    /* background-image:url("assets/pic2.jpg"); */
+}
+
+.form{
+
+    display:inline-table;
+    text-align: right;
+
+}
+
+.form.container{
+    background-color: bisque;
+}
